@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "module": "Node16",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types/"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
