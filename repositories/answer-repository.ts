@@ -4,7 +4,7 @@ import { RedisClientType } from 'redis';
 import MongooseQuestionRepository from './question-repository';
 import { QuestionResponse } from '../domain/question';
 
-class RedisQuestionRepository implements AnswerRepository {
+class RedisAnswerRepository implements AnswerRepository {
   private redisClient: RedisClientType;
   private questionRepository: MongooseQuestionRepository;
 
@@ -60,4 +60,4 @@ class RedisQuestionRepository implements AnswerRepository {
   }
 }
 
-export default RedisQuestionRepository;
+export default RedisAnswerRepository;
